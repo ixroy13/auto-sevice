@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+  box-shadow: 0 0 10px 2px #272727;
+}
+
+table.open-time {
+  width: 50%;
+}
+
+table * {
+  padding: 0.5rem;
+}
+thead {
+  font-weight: 500;
+  background: var(--black);
+}
+
+tr:nth-child(even) {
+  background: #272727;
+}
+
+tr:nth-child(odd) {
+  background: #171717;
+}

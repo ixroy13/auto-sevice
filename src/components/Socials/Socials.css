@@ -1,0 +1,21 @@
+
+
+.social-media div {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: .7em;
+}
+
+.social-media div a {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.social-media div:last-child {
+    margin: 0;
+}

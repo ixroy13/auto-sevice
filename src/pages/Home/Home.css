@@ -1,0 +1,47 @@
+section {
+  position: absolute;
+  top: 0;
+  padding: 2rem var(--padding-left-right);
+  z-index: 100;
+}
+
+.hero {
+  flex-direction: column;
+  row-gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: clamp(2rem, 3vw, 3rem);
+  text-align: center;
+}
+
+.subtitle {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  line-height: 2.7rem;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    flex-direction: row;
+  }
+
+  .hero div {
+    width: 100%;
+  }
+
+  .subtitle {
+    padding-left: 5rem;
+    text-align: start;
+  }
+
+  section {
+    padding-top: 5rem;
+  }
+
+  nav ul li:first-child {
+    border-bottom: 2px solid var(--orange-web);
+    font-weight: 500;
+  }
+}

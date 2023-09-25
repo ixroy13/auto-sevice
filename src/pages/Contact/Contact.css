@@ -1,0 +1,24 @@
+.adres, .phone a, .mail a {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.phone {
+    margin: 1.2rem 0;
+}
+
+.info-box {
+    font-size: 1.3em;
+}
+
+@media (min-width: 800px) {
+    .contact-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 7rem var(--padding-left-right);
+        /* border: 1px solid red; */
+    }
+}

@@ -1,0 +1,22 @@
+.webcontent-layer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #000 3%, #00000095 50%, #000 97%);
+  position: absolute;
+  top: 0;
+}
+
+.webcontent-box {
+  background-image: url("../../assets/images/engine.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+@media (max-width: 800px) {
+  .webcontent-layer {
+    background: linear-gradient(to bottom, #000 6%, transparent 90%, #000 97%);
+  }
+}
